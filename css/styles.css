@@ -1,0 +1,119 @@
+:root {
+  --primary-text-color: #757575;
+  --titles-text-color: #212121;
+  --accent-text-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* logo */
+.logo {
+  color: var(--accent-text-color);
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo .accent-header {
+  color: var(--titles-text-color);
+}
+/* site nav */
+.list {
+  list-style: none;
+  color: var(--titles-text-color);
+}
+.site-nav .link {
+  color: var(--titles-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+.contacts {
+  color: var(--primary-text-color);
+}
+
+/* STUDIO */
+/* Hero */
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  background-color: var(--accent-text-color);
+  color: #ffffff;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Section */
+.section-title {
+  color: var(--titles-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Features */
+.features .title {
+  color: var(--titles-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Team */
+.section .title {
+  color: var(--titles-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section .description {
+  font-size: 16px;
+  line-height: 19px;
+}
+/* Footer */
+.logo .accent-footer {
+  color: #ffffff;
+}
+.adress {
+  font-style: normal;
+}
+
+/* PORTFOLIO */
+/* Section */
+.button-portfolio {
+  background-color: #f5f4fa;
+  color: var(--titles-text-color);
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button-portfolio:hover {
+  background-color: var(--accent-text-color);
+  color: #ffffff;
+}
