@@ -28,7 +28,7 @@ body {
 /* site nav */
 .list {
   list-style: none;
-  color: var(--titles-text-color);
+  color: var(--primary-text-color);
 }
 .site-nav .link {
   color: var(--titles-text-color);
