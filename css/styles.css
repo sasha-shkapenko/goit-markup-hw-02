@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
@@ -33,7 +33,6 @@ body {
 .site-nav .link {
   color: var(--titles-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -49,6 +48,8 @@ body {
 }
 .contacts {
   color: var(--primary-text-color);
+  text-decoration: none;
+  font-style: normal;
 }
 
 /* STUDIO */
@@ -78,7 +79,7 @@ body {
   text-align: center;
 }
 /* Features */
-.features .title {
+.features-title {
   color: var(--titles-text-color);
   font-size: 14px;
   line-height: 1.14;
@@ -86,7 +87,7 @@ body {
 }
 
 /* Team */
-.section .title {
+.team-title {
   color: var(--titles-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -94,7 +95,7 @@ body {
 }
 .section .description {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
 /* Footer */
 .logo .accent-footer {
@@ -102,18 +103,31 @@ body {
 }
 .adress {
   font-style: normal;
+  color: #ffffff;
 }
 
 /* PORTFOLIO */
-/* Section */
-.button-portfolio {
+/* Buttons */
+.filter-button {
   background-color: #f5f4fa;
   color: var(--titles-text-color);
   font-family: inherit;
   text-decoration: none;
   cursor: pointer;
 }
-.button-portfolio:hover {
+.filter-button:hover {
   background-color: var(--accent-text-color);
   color: #ffffff;
+}
+/* Projects */
+.project-title {
+  color: var(--titles-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects p {
+  font-size: 16px;
+  line-height: 1.88;
 }
